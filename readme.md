@@ -1,4 +1,4 @@
-# Data Science Bootcamp with DataRockie
+# Data Science Bootcamp by DataRockie
 
 ## [Spreadsheets](./01%20Spreadsheets/)
 
