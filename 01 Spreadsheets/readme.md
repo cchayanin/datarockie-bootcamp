@@ -3,7 +3,7 @@
 [Homework-Project](https://docs.google.com/spreadsheets/d/1qneeil5bsYQkRDGgjXbz1kNR8VP6Ih_hRsTGOi6tLoo/edit?usp=sharing)
 
 ## Dynamic Query
-![dynamic query](./images/finish.png)
+![dynamic query](./images/dynamic_query.png)
 
 ## Convert Date from TH to EN
 ![convert date](./images/convert_date.png)

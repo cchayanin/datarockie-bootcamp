@@ -1,21 +1,21 @@
 # Data Science Bootcamp by DataRockie
 
-## [Spreadsheets](./01%20Spreadsheets/)
+[Spreadsheets](./01%20Spreadsheets/)
 
-## SQL Database
+SQL Database
 
-## R Programming
+R Programming
 
-## Data Transformation
+Data Transformation
 
-## Data Visualizatoin
+Data Visualizatoin
 
-## Statistics
+Statistics
 
-## Machine Learning
+Machine Learning
 
-## Python Programming
+Python Programming
 
-## Python for Data Analyst
+Python for Data Analyst
 
-## Dashboard
+Dashboard
