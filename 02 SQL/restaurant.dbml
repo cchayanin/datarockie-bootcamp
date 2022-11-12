@@ -14,7 +14,7 @@ Table menus_head {
 
 Table menus_detail{
   id int [PK]
-  size text [not null]
+  size_dish text [not null]
   price real [not null]
   menu_id int [not null, ref: > menus_head.id]
 }
