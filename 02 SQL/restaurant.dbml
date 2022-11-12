@@ -1,4 +1,4 @@
-Table customers {
+Table customer {
   id int [PK]
   firstname text [not null]
   lastname text [not null]
@@ -7,16 +7,16 @@ Table customers {
   phone text
 }
 
-Table menus_head {
+Table menu_head {
   id int [PK]
   menu_name text [not null]
 }
 
-Table menus_detail{
+Table menu_detail{
   id int [PK]
   size_dish text [not null]
   price real [not null]
-  menu_id int [not null, ref: > menus_head.id]
+  menu_id int [not null, ref: > menu_head.id]
 }
 
 Table payment_type {
@@ -24,17 +24,17 @@ Table payment_type {
   payment text [not null]
 }
 
-Table orders_head {
+Table order_head {
   id int [PK]
   order_date date [not null]
-  customer_id int [not null, ref: > customers.id]
+  customer_id int [not null, ref: > customer.id]
   payment_id int [not null, ref: - payment_type.id]
 }
 
 
-Table orders_detail {
+Table order_detail {
   id int [PK]
-  order_id int [not null, ref: > orders_head.id]
-  menu_detail_id int [not null,ref: - menus_detail.id]
+  order_id int [not null, ref: > order_head.id]
+  menu_detail_id int [not null,ref: - menu_detail.id]
   quantity int [not null]
 }
