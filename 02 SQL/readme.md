@@ -5,12 +5,12 @@
 ## SQLite:
 
 Restaurant databases at least 5 tables
-- customers
-- menus_head
-- menus_detail
+- customer
+- menu_head
+- menu_detail
 - payment_type
-- orders_head
-- orders_detail
+- order_head
+- order_detail
 
 
 [DBML](./restaurant.dbml)
