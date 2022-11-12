@@ -2,7 +2,7 @@
 
 [Spreadsheets](./01%20Spreadsheets/)
 
-SQL Database
+[SQL Database](./02%20SQL/)
 
 R Programming
 
