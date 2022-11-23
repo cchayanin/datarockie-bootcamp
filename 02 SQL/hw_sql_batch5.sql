@@ -120,9 +120,6 @@ SELECT h.order_date
 FROM order_head h
 JOIN order_detail d on d.order_id = h.id
 JOIN menu_detail md on md.id = d.menu_detail_id
-JOIN menu_head mh on mh.id = md.menu_id
-JOIN customer c on c.id = h.customer_id
-JOIN payment_type p on p.id = h.payment_id
 GROUP BY h.order_date
 ORDER BY h.order_date;
   
@@ -133,9 +130,7 @@ SELECT c.firstname || " " ||c.lastname customer_name
 FROM order_head h
 JOIN order_detail d on d.order_id = h.id
 JOIN menu_detail md on md.id = d.menu_detail_id
-JOIN menu_head mh on mh.id = md.menu_id
 JOIN customer c on c.id = h.customer_id
-JOIN payment_type p on p.id = h.payment_id
 GROUP BY c.firstname || c.lastname
 ORDER BY sum(d.quantity * md.price) DESC;
 
@@ -147,8 +142,6 @@ SELECT p.payment
 FROM order_head h
 JOIN order_detail d on d.order_id = h.id
 JOIN menu_detail md on md.id = d.menu_detail_id
-JOIN menu_head mh on mh.id = md.menu_id
-JOIN customer c on c.id = h.customer_id
 JOIN payment_type p on p.id = h.payment_id
 GROUP BY p.payment
 ORDER BY sum(d.quantity * md.price) DESC;
@@ -173,7 +166,7 @@ orders AS (
   FROM order_head oh
   JOIN order_detail od ON od.order_id = oh.id
 )
-
+  
 SELECT ord.id 
 ,ord.order_date 
 ,cus.firstname || " " || cus.lastname customer_name
