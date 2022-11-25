@@ -1,4 +1,4 @@
-host=tiny.db.elephantsql.com
-dbname=mixxxabt
-port=5432
-password=LGpV53La2nd8Ews-7K84DZxqzBL-xyzr
+host=host
+dbname=dbname
+port=port
+password=password

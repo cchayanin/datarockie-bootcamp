@@ -6,11 +6,11 @@ library(RPostgreSQL)
 ### create connection
 conn <- dbConnect(
     PostgreSQL(),
-    host = "tiny.db.elephantsql.com",
-    dbname = "mixxxabt",
-    port = 5432,
-    user = "mixxxabt",
-    password = "LGpV53La2nd8Ews-7K84DZxqzBL-xyzr"
+    host = "host",
+    dbname = "dbname",
+    port = portno,
+    user = "user",
+    password = "password"
 )
 
 ### list Table

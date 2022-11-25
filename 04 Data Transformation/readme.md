@@ -31,8 +31,6 @@
 
 [RPostgreSQL](./RPostgresql.R)
 
-**My database instance has already been deleted.**
-
 - create connection
 - create table
 - list table
