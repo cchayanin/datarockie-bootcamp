@@ -10,7 +10,7 @@
 
 Data Visualizatoin
 
-Statistics
+Essential Statistics
 
 Machine Learning
 
