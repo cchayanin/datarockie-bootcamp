@@ -8,7 +8,7 @@
 
 [Data Transformation](./04%20Data%20Transformation/)
 
-Data Visualizatoin
+[Data Visualization](./05%20Data%20Visualization/)
 
 Essential Statistics
 
