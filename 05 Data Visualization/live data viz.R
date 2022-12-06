@@ -1,3 +1,42 @@
+#### Imputation ####
+library(tidyverse)
+### msleep data set
+glimpse(msleep)
+
+### mean imputation
+avg_sleep_rem <- msleep |>
+    summarise(mean(sleep_rem, na.rm = TRUE)) |>
+    pull() |> 
+    round(2)
+
+clean_msleep <- msleep |>
+    mutate(sleep_rem = replace_na(sleep_rem, avg_sleep_rem))
+
+### conditional mean
+avg_sleep_by_vore <- msleep |>
+    group_by(vore) |>
+    summarise(avg_sleep_rem = mean(sleep_rem, na.rm = TRUE))
+
+### conditional mean imputation
+clean_msleep <- msleep |>
+    mutate(
+        sleep_rem = case_when(
+            is.na(sleep_rem) & vore == "carni" ~ 2.29,
+            is.na(sleep_rem) & vore == "herbi" ~ 1.37,
+            is.na(sleep_rem) & vore == "insecti" ~ 3.52,
+            is.na(sleep_rem) & vore == "omni" ~ 1.96,
+            is.na(vore) ~ 1.88,
+            TRUE ~ sleep_rem
+        )
+    )
+
+### imputation better way
+msleep |>
+    left_join(avg_sleep_by_vore, by = "vore") |>
+    select(vore, sleep_rem, avg_sleep_rem) |>
+    mutate(sleep_rem = if_else(is.na(sleep_rem), avg_sleep_rem, sleep_rem))
+
+
 #### Lubridate ####
 library(tidyverse)
 library(lubridate)
