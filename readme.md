@@ -1,21 +1,30 @@
-# Data Science Bootcamp by DataRockie
+# Data Science Bootcamp  
+Intensive course with live and on-demand classes by [DataRockie](https://datarockie.com/data-science-bootcamp/)
 
-[Spreadsheets](./01%20Spreadsheets/)
+## Spreadsheet
+[Homework-Google Sheets](https://docs.google.com/spreadsheets/d/1W0MzkBgQZTEoTQroXZHpT8kjcYdhfPxjvsuN1NTdkJo/edit?usp=sharing)  
 
-[SQL Database](./02%20SQL/)
+[x] [Dynamic Query](https://cchayanin.github.io/quartz/datarockie/google-sheets/homework-googlesheets/#dynamic-query) - Use the query function and dropdown to filter the table  
+[x] [Converting Date](https://cchayanin.github.io/quartz/datarockie/google-sheets/homework-googlesheets/#converting-date) - Convert the TH date to the EN date  
+[x] [ID Card Parser](https://cchayanin.github.io/quartz/datarockie/google-sheets/homework-googlesheets/#id-card-parser) - Extract data from ID card information  
+[x] [Simple App](https://cchayanin.github.io/quartz/datarockie/google-sheets/homework-googlesheets/#simple-app) - Create a simple app to get information from data  
 
-[R Programming](./03%20R%20Programming/)
+## SQL Database
+restuarant - A small database of restaurants with some queries to analyze  
 
-[Data Transformation](./04%20Data%20Transformation/)
+## R Programming
+Rock Paper Scissors  
 
-[Data Visualization](./05%20Data%20Visualization/)
+## Data Transformation
 
-Essential Statistics
+## Data Visualization
 
-Machine Learning
+## Essential Statistics
 
-Python Programming
+## Machine Learning
 
-Python for Data Analyst
+## Python Programming
 
-Dashboard
+## Python for Data Analyst
+
+## Dashboard
