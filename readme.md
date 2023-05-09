@@ -13,18 +13,20 @@ Intensive course with live and on-demand classes by [DataRockie](https://dataroc
 - [x] [restuarant](./sql) - A small database of restaurants with some queries to analyze  
 
 ## R Programming
-Rock Paper Scissors  
+- [x] [Rock Paper Scissors](./r) - Code a rock-paper-scissors game in r  
 
 ## Data Transformation
-
+- [x] [Data Transformation](./data-transformation/)
 ## Data Visualization
-
+- [x] [Data Visualization](./data-visualization/)
 ## Essential Statistics
 
 ## Machine Learning
 
 ## Python Programming
+- [x] [Rock Paper Scissors](./python) - Code a rock-paper-scissors game in python  
 
 ## Python for Data Analyst
+
 
 ## Dashboard
