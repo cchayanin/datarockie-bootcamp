@@ -24,7 +24,7 @@ Intensive course with live and on-demand classes by [DataRockie](https://dataroc
 ## Machine Learning
 
 ## Python Programming
-- [x] [Rock Paper Scissors](./python) - Code a rock-paper-scissors game in python  
+- [x] [Rock Paper Scissors](https://colab.research.google.com/drive/1Iry8PWeKeTMiBCOtTac2QaKF_YJVN9Qk?usp=sharing) - Code a rock-paper-scissors game in python  
 
 ## Python for Data Analyst
 - [x] [Pandas Project](https://datalore.jetbrains.com/view/notebook/xWBXZAFAFDDdvjWkPwsKxp)
